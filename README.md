@@ -7,6 +7,7 @@ Domain: Full-Stack Web Development
 Week: Week 2
 
 Live Deployment Link:
+https://zumrabibi.github.io/aurex-web-internship-zumrabibi/
 
 
 CSS Features & Layout Techniques Implemented
