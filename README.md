@@ -1,33 +1,34 @@
-﻿Aurex Web Internship - Week 1
+﻿Aurex Web Internship - Week 2
 
 Intern Information
 
 Full Name: Zumra Bibi 
 Domain: Full-Stack Web Development  
-Week: Week 1
+Week: Week 2
 
-Task Description
+Live Deployment Link:
 
-This project is part of Week 1 of the Aurex Web Internship.
 
-The main objectives of this task are:
+CSS Features & Layout Techniques Implemented
+CSS Box Model:
+We use "box-sizing: border-box" to adjust width.
+Flexbox Alignment:
+We use flexbox for aligning navigation bar and buttons.
+CSS Grid Structures: 
+We use CSS Grid for skills layout.
+Responsive Design: 
+We use CSS Media Queries to adjust layout automatically Desktop, Tablet, aur Mobile screen.
+UI/UX Principles: 
+Clean typography, standard margins, and high-contrast color choices. 
 
-Configure a professional GitHub profile.
-Create and configure a public GitHub repository.
-Initialize the project locally using VS Code and Git.
-Create a basic personal profile webpage using HTML5.
-Practice clean HTML structure and semantic elements.
-Create meaningful Git commits and push the project to GitHub.
 
-Technologies Used
+Key Learnings & Challenges
+Learnings: 
+How to add style to an HTML.
+How to use Flexbox.
+How to use CSS Grid.
+How to create responsive design.
+How to add hover effects.
 
-HTML5
-Git
-GitHub
-Visual Studio Code
-
-Project Structure
-aurex-web-internship-your-name/
-│
-├── index.html
-└── README.md
+Challenges Faced: 
+I faced challenges in making the layout suitable for different screen sizes.
