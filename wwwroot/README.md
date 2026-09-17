@@ -1,34 +1,64 @@
-﻿Aurex Web Internship - Week 2
+﻿Aurex Web Internship - Week 3
 
 Intern Information
 
 Full Name: Zumra Bibi 
 Domain: Full-Stack Web Development  
-Week: Week 2
+Week: Week 3
+
+Project Description:
+This project is an upgraded version of my Week 2 responsive portfolio.
+In Week 3, I added an interactive project showcase using advanced CSS Grid,
+CSS animations, hover effects, and responsive design.
 
 Live Deployment Link:
 
+CSS Grid Layout:
+The project showcase uses CSS Grid with:
+auto-fit
+minmax()
+Responsive columns
+Flexible card sizing
+Consistent gaps and spacing
+The grid automatically adjusts the number of columns according to the
+available screen width.
 
-CSS Features & Layout Techniques Implemented
-CSS Box Model:
-We use "box-sizing: border-box" to adjust width.
-Flexbox Alignment:
-We use flexbox for aligning navigation bar and buttons.
-CSS Grid Structures: 
-We use CSS Grid for skills layout.
-Responsive Design: 
-We use CSS Media Queries to adjust layout automatically Desktop, Tablet, aur Mobile screen.
-UI/UX Principles: 
-Clean typography, standard margins, and high-contrast color choices. 
+Keyframe Animations
 
+I created CSS keyframe animations for smooth page-load effects.
+Project cards also include hover elevation and transform effects.
+Buttons include scale and transition effects for better interaction.
 
-Key Learnings & Challenges
-Learnings: 
-How to add style to an HTML.
-How to use Flexbox.
-How to use CSS Grid.
-How to create responsive design.
-How to add hover effects.
+Responsive Testing
+The website was tested on:
+Desktop
+Tablet
+Mobile
+The layout adjusts automatically for different screen sizes.
+Project cards change from multiple columns to fewer columns on smaller
+screens.
 
-Challenges Faced: 
-I faced challenges in making the layout suitable for different screen sizes.
+Performance Testing
+The website uses lightweight HTML and CSS without unnecessary libraries.
+Responsive CSS and simple animations were used to maintain smooth
+performance.
+
+Features Checklist
+Advanced CSS Grid
+auto-fit and minmax()
+Project showcase
+CSS Keyframe Animation
+Hover effects
+Button interactions
+Desktop responsiveness
+Tablet responsiveness
+Mobile responsiveness
+Weekly reflection
+Demonstration screenshots
+
+Weekly Reflection
+
+This week I learned how to create advanced responsive layouts using CSS Grid.
+I also learned how to use keyframe animations, transitions, transforms, and
+hover effects to make a webpage more interactive. I improved my understanding
+of responsive design and tested my portfolio on different screen sizes.
