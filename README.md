@@ -12,7 +12,8 @@ In Week 3, I added an interactive project showcase using advanced CSS Grid,
 CSS animations, hover effects, and responsive design.
 
 Live Deployment Link:
-
+https://zumrabibi.github.io/aurex-web-internship-zumrabibi/
+ 
 CSS Grid Layout:
 The project showcase uses CSS Grid with:
 auto-fit
