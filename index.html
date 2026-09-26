@@ -2,148 +2,102 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>My Profile</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-    <header>
-        <h1>Zumra Bibi</h1>
-        <p>Web Development Intern|Full-Stack Web Developer</p>
-    </header>
-    <nav>
-        <a href="#about">About Me</a> |
-        <a href="#about">Skills</a> |
-        <a href="#about">Education</a> |
-        <a href="#about">Experience</a> |
-        <a href="#about">Projects</a> |
-        <a href="#about">Contact Info</a>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! My name is Zumra Bibi. I am interested in web development and technology.I am currently learning HTML,Git, ang GitHub. My goal is to become a skilled full-stack developer.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>Git and GitHub</li>
-                <li>Basic Web Development</li>
-                <li>Problem Solving</li>
-                <li>Good Communication Skills</li>
-                <li>Generative AI Development</li>
-                <li>Office Automation</li>
-            </ul>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <td><b>Degree</b></td>
-                        <td><b>Subject</b></td>
-                        <td><b>Year</b></td>
-                        <td><b>Grade</b></td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Matriculation</td>
-                        <td>Computer Science</td>
-                        <td>2020</td>
-                        <td>A+</td>
-                    </tr>
-                    <tr>
-                        <td>Intermediate</td>
-                        <td>FSc(Pre-Engineering)</td>
-                        <td>2022</td>
-                        <td>A</td>
-                    </tr>
-                    <tr>
-                        <td>Bachelor</td>
-                        <td>Information Technology</td>
-                        <td>2026</td>
-                        <td>A</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <article>
-                <h4>Generative AI Development</h4>
-                <p>I have many tasks of App development using Generative AI. I have 6-month experience regarding this work. I also participated in Final Hackathon and got iconic excellence.Generative AI Developer with hands-on experience in building AI-powered applications. Skilled in Prompt Engineering, RAG systems, and integrating Large Language Models (LLMs) using Python and LangChain to automate complex workflows.</p>
+    <div class="app-container">
 
-                <h4>Office Automation</h4>
-                <p>Motivated professional with a strong certification in Office Automation. Skilled in managing data on MS Excel, creating professional documents in MS Word, and designing powerful PowerPoint presentations to improve office productivity.</p>
+        <header>
+            <h1>Task Management App</h1>
+            <p>Manage your tasks easily and efficiently.</p>
+        </header>
 
-                <h4>Web Development Intern</h4>
-                <p>Fresh and enthusiastic Web Development Intern with a strong foundation in building modern web interfaces. Certified in Generative AI Development and Office Automation, bringing a unique skill set to integrate AI features (like LLMs and Chatbots) into web applications and automate backend office workflows.</p>
-            </article>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
+        <main>
 
-            <div class="project-grid">
+            <!-- Add Task Form -->
+            <section class="task-form-section">
 
-                <article class="project-card">
-                    <h3>Personal Portfolio</h3>
+                <form id="taskForm">
 
-                    <p>
-                        A responsive personal portfolio created with HTML and CSS,
-                        featuring Flexbox, Grid, animations, and responsive layouts.
-                    </p>
+                    <input type="text"
+                           id="taskInput"
+                           placeholder="Enter a new task..."
+                           autocomplete="off">
 
-                    <span>HTML | CSS | Responsive Design</span>
-                </article>
+                    <button type="submit" id="addTaskBtn">
+                        Add Task
+                    </button>
 
-                <article class="project-card">
-                    <h3>Wedding Closet Hub</h3>
+                </form>
 
-                    <p>
-                        A multi-vendor wedding shopping platform concept for
-                        dresses, jewellery, makeup, shoes, bags, and accessories.
-                    </p>
+                <p id="errorMessage"></p>
 
-                    <span>Web Development | MVC | Database</span>
-                </article>
+            </section>
 
-                <article class="project-card">
-                    <h3>Generative AI Projects</h3>
 
-                    <p>
-                        A collection of practical app development tasks completed
-                        with the help of Generative AI.
-                    </p>
+            <!-- Task Filters -->
+            <section class="filter-section">
 
-                    <span>Generative AI | App Development</span>
-                </article>
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
 
-                <article class="project-card">
-                    <h3>Web Internship Project</h3>
+                <button class="filter-btn" data-filter="active">
+                    Active
+                </button>
 
-                    <p>
-                        A professional internship portfolio developed using HTML,
-                        CSS, Git, GitHub, Flexbox, and CSS Grid.
-                    </p>
+                <button class="filter-btn" data-filter="completed">
+                    Completed
+                </button>
 
-                    <span>HTML | CSS | Git | GitHub</span>
-                </article>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form>
-                Name: <input type="text" name="name" placeholder="Your Name" required /><br />
-                Email: <input type="email" name="email" placeholder="Your Email" required /><br />
-                Contact #: <input type="tel" name="contact" placeholder="Your Contact Number" required /><br />
-                Message: <textarea name="message" placeholder="Your Message" required></textarea><br />
-                <input type="submit" value="Submit" />
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>&copy;2026 Zumra Bibi.All rights reserved.</p>
-    </footer>
+            </section>
+
+
+            <!-- Task List -->
+            <section class="task-section">
+
+                <ul id="taskList">
+                    <!-- Tasks will be added here using JavaScript -->
+                </ul>
+
+                <p id="emptyMessage">
+                    No tasks available.
+                </p>
+
+            </section>
+
+
+            <!-- Task Statistics -->
+            <section class="task-stats">
+
+                <p>
+                    Total Tasks:
+                    <span id="totalTasks">0</span>
+                </p>
+
+                <p>
+                    Completed:
+                    <span id="completedTasks">0</span>
+                </p>
+
+                <p>
+                    Active:
+                    <span id="activeTasks">0</span>
+                </p>
+
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>&copy; 2026 Task Management App</p>
+        </footer>
+
+    </div>
+
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
