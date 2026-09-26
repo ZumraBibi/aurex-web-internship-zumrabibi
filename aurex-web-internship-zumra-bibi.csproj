@@ -7,4 +7,8 @@
     <RootNamespace>aurex_web_internship_zumra_bibi</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+  </ItemGroup>
+
 </Project>

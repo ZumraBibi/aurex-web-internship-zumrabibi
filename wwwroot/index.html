@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+    <div class="app-container">
+
+        <header>
+            <h1>Task Management App</h1>
+            <p>Manage your tasks easily and efficiently.</p>
+        </header>
+
+        <main>
+
+            <!-- Add Task Form -->
+            <section class="task-form-section">
+
+                <form id="taskForm">
+
+                    <input type="text"
+                           id="taskInput"
+                           placeholder="Enter a new task..."
+                           autocomplete="off">
+
+                    <button type="submit" id="addTaskBtn">
+                        Add Task
+                    </button>
+
+                </form>
+
+                <p id="errorMessage"></p>
+
+            </section>
+
+
+            <!-- Task Filters -->
+            <section class="filter-section">
+
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="active">
+                    Active
+                </button>
+
+                <button class="filter-btn" data-filter="completed">
+                    Completed
+                </button>
+
+            </section>
+
+
+            <!-- Task List -->
+            <section class="task-section">
+
+                <ul id="taskList">
+                    <!-- Tasks will be added here using JavaScript -->
+                </ul>
+
+                <p id="emptyMessage">
+                    No tasks available.
+                </p>
+
+            </section>
+
+
+            <!-- Task Statistics -->
+            <section class="task-stats">
+
+                <p>
+                    Total Tasks:
+                    <span id="totalTasks">0</span>
+                </p>
+
+                <p>
+                    Completed:
+                    <span id="completedTasks">0</span>
+                </p>
+
+                <p>
+                    Active:
+                    <span id="activeTasks">0</span>
+                </p>
+
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>&copy; 2026 Task Management App</p>
+        </footer>
+
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
