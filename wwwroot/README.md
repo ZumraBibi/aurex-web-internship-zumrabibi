@@ -1,64 +1,73 @@
-﻿Aurex Web Internship - Week 3
+﻿Aurex Web Internship - Week 4
 
 Intern Information
 
 Full Name: Zumra Bibi 
 Domain: Full-Stack Web Development  
-Week: Week 3
-
-Project Description:
-This project is an upgraded version of my Week 2 responsive portfolio.
-In Week 3, I added an interactive project showcase using advanced CSS Grid,
-CSS animations, hover effects, and responsive design.
+Week: Week 4
 
 Live Deployment Link:
 
-CSS Grid Layout:
-The project showcase uses CSS Grid with:
-auto-fit
-minmax()
-Responsive columns
-Flexible card sizing
-Consistent gaps and spacing
-The grid automatically adjusts the number of columns according to the
-available screen width.
+Project Description:
+In Week 4,I developed a responsive Task Management App using HTML, CSS, and Vanilla JavaScript.
+The application allows users to edit,delete,compelete,and filter tasks.
+Tasks are stored in browser using localStorage so they remain available after refreshing the page.
 
-Keyframe Animations
+Technologies Used:
+HTML5
+CSS
+Vanilla JavaScript
+DOM Manipulation
+localStorage
+Git 
+GitHub
 
-I created CSS keyframe animations for smooth page-load effects.
-Project cards also include hover elevation and transform effects.
-Buttons include scale and transition effects for better interaction.
+Feature Implemented:
+●	Add task
+●	Edit task
+●	Delete task
+●	Mark task as complete
+●	Basic filtering
+●	Form/input validation
+●	Save tasks in localStorage
+●	Retrieve tasks after page refresh
+●	Remove/update stored tasks
+●	Responsive interface
 
-Responsive Testing
-The website was tested on:
-Desktop
-Tablet
-Mobile
-The layout adjusts automatically for different screen sizes.
-Project cards change from multiple columns to fewer columns on smaller
-screens.
+JavaScript Exercises Completed:
+Variable
+Conditions
+Loops
+Functions
+Arrays
+Objects
+DOM Manipulation 
+Event Handling
+localStorage
 
-Performance Testing
-The website uses lightweight HTML and CSS without unnecessary libraries.
-Responsive CSS and simple animations were used to maintain smooth
-performance.
+Challenges Faced:
+I faced challenges in understandin DOM manipulation, handling task events, updating task list, and storing data using localStorage.
 
-Features Checklist
-Advanced CSS Grid
-auto-fit and minmax()
-Project showcase
-CSS Keyframe Animation
-Hover effects
-Button interactions
-Desktop responsiveness
-Tablet responsiveness
-Mobile responsiveness
-Weekly reflection
-Demonstration screenshots
+What I learned:
+How to use JavaScript variables and functions
+How to work with arrays and objects
+How to use conditios and loops
+How to manipulate HTML elements using DOM 
+How to handle form and button events
+How to use localStorage
+How to create a resposive frontend application
+How to test JavaScript functionality in a live web application
 
-Weekly Reflection
+Complete Feature Checklist:
+Add task
+Edit task
+Delete task
+Mark task as complete
+Basic filtering
+Form/Input Validation
+localStorage
+Retrieve Task after Refresh
+Updated stored task
+Resposive Interface
+Live Deployment Link
 
-This week I learned how to create advanced responsive layouts using CSS Grid.
-I also learned how to use keyframe animations, transitions, transforms, and
-hover effects to make a webpage more interactive. I improved my understanding
-of responsive design and tested my portfolio on different screen sizes.
