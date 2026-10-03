@@ -1,73 +1,16 @@
-﻿Aurex Web Internship - Week 4
+# React + Vite
 
-Intern Information
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Full Name: Zumra Bibi 
-Domain: Full-Stack Web Development  
-Week: Week 4
+Currently, two official plugins are available:
 
-Live Deployment Link:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Project Description:
-In Week 4,I developed a responsive Task Management App using HTML, CSS, and Vanilla JavaScript.
-The application allows users to edit,delete,compelete,and filter tasks.
-Tasks are stored in browser using localStorage so they remain available after refreshing the page.
+## React Compiler
 
-Technologies Used:
-HTML5
-CSS
-Vanilla JavaScript
-DOM Manipulation
-localStorage
-Git 
-GitHub
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Feature Implemented:
-●	Add task
-●	Edit task
-●	Delete task
-●	Mark task as complete
-●	Basic filtering
-●	Form/input validation
-●	Save tasks in localStorage
-●	Retrieve tasks after page refresh
-●	Remove/update stored tasks
-●	Responsive interface
+## Expanding the ESLint configuration
 
-JavaScript Exercises Completed:
-Variable
-Conditions
-Loops
-Functions
-Arrays
-Objects
-DOM Manipulation 
-Event Handling
-localStorage
-
-Challenges Faced:
-I faced challenges in understandin DOM manipulation, handling task events, updating task list, and storing data using localStorage.
-
-What I learned:
-How to use JavaScript variables and functions
-How to work with arrays and objects
-How to use conditios and loops
-How to manipulate HTML elements using DOM 
-How to handle form and button events
-How to use localStorage
-How to create a resposive frontend application
-How to test JavaScript functionality in a live web application
-
-Complete Feature Checklist:
-Add task
-Edit task
-Delete task
-Mark task as complete
-Basic filtering
-Form/Input Validation
-localStorage
-Retrieve Task after Refresh
-Updated stored task
-Resposive Interface
-Live Deployment Link
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
